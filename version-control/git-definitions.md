@@ -10,3 +10,5 @@ A branch is a tool used to do this work. you would use it to keep the master cle
 A commit is a saved change made to a file. A good commit message is detailed and states what was changed since the last commit.
 * What is a merge conflict?
 A merge conflict is an error when attempting to merge branches. It occurs when there are commits in your current branch that are not in the other branch. 
+
+<3(minor change)
