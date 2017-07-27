@@ -11,4 +11,7 @@ A commit is a saved change made to a file. A good commit message is detailed and
 * What is a merge conflict?
 A merge conflict is an error when attempting to merge branches. It occurs when there are commits in your current branch that are not in the other branch. 
 
+
 <3(minor change)LOL
+
+
