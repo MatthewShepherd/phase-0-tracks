@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <form name="Doctor" action="success.html" method="post">
+      <fieldset>
+          <div>
+            <label>Full name:</label>
+            <input type="text" name="fullname">
+          </div>
+          <div>
+            <label>Phone:</label>
+            <input type="phone" name="phone">
+          </div>
+          <div>
+            <label>Password:</label>
+            <input type="password" name="password">
+          </div>    
+      </fieldset>
+      <fieldset>
+          <div>
+            <label>Gender preference:</label>
+            <select name="physician gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Either">Either</option>
+            </select>
+          </div>
+          <div>
+            <label>Appointment Date:</label>
+            <input type="date" name="date">
+          </div>
+          <div>
+            <input type="checkbox" name="cb-agree" value="agree">
+            "
+            	I agree to terms and conditions.
+               " 
+          </div>
+          <div>
+             <textarea rows="6" cols="50">
+             Questions or comments...
+             </textarea>
+          </div>        	
+      </fieldset>
+      <button type="submit">Set Appointment</button>
+    </form>  
+</body>
+</html>
