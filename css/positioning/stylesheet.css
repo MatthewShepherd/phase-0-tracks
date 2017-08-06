@@ -1,4 +1,22 @@
-div {
-	margin: 500px;
+.img_one {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin-left: 40%;
+	margin-top: 10%;
+	z-index: -2;
+}
 
+.img_two {
+	position: absolute;
+	margin-left: 38.5%;
+	margin-top: 7.5%;
+	z-index: 0;
+}
+
+.img_three {
+	position: absolute;
+	margin-left: 42%;
+    margin-top: 15%;
+    z-index: -1;
 }
