@@ -4,18 +4,29 @@ blockquote {
   margin-left: 0px;
 }
 
+* {
+	outline: 1px solid red;
+}
+
 body {
-	width: 960px;
+	max-width: 960px;
+
 }
 
-h1 ul {
-	width: 200px;
+.container {
+	display: inline-block;
 }
 
-main {
-	width: 756px;
+#external_links {
+	width: 20%;
+	position: fixed;
 }
+
+#mainContent {
+	width: 80%;
+	margin-left: 21.25%;
 }
+
 cite {
   display: block;
   margin-top: 10px;
