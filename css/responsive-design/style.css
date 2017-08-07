@@ -10,7 +10,7 @@ blockquote {
 
 body {
 	max-width: 960px;
-
+	min-width: 690px;
 }
 
 .container {
@@ -19,11 +19,12 @@ body {
 
 #external_links {
 	width: 20%;
+	max-width: 200px;
 	position: fixed;
 }
 
 #mainContent {
-	width: 80%;
+	width: 78.5%;
 	margin-left: 21.25%;
 }
 
@@ -47,4 +48,36 @@ figure {
 figcaption {
   font-style: italic;
   text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: .5em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container {
+      display: initial;
+  }
+
+  #external_links {
+
+	width: 100%;
+	position: hover;
+  }
+
+  #mainContent {
+	width: 100%;
+  }
+}  
+
+@media screen and (max-width: 723px) {
+  body {
+    background-color: hotpink;
+
+  }
+  #mainContent {
+  	max-width: 300px;
+  }
 }
