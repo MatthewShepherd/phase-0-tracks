@@ -10,4 +10,4 @@ Elevator Robot Pseudocode
 -If floor number matches desired destination exit elevator
 -Otherwise remain in elevator
 -Repeat the last step if applicable until desired floor destination is reached
-
+-Exit elevator
