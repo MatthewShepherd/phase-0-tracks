@@ -11,3 +11,20 @@ Elevator Robot Pseudocode
 -Otherwise remain in elevator
 -Repeat the last step if applicable until desired floor destination is reached
 -Exit elevator
+
+Hand Washing Pseudocode
+
+-Approach sink
+-Turn left sink handle counter clockwise 45 degrees
+-Turn right sink handle 15 degrees
+-Place one hand under soap despenser
+-Use other hand to push down soap despenser
+-Rub both hands together until even displacement of soap on palms
+-Place both hands under water for .5 seconds then remove them
+-Rub both hands together until even displacement of soap and water all over hands
+-Place both hands under water while rubbing both hands together
+-Keep hands under water until all soap is removed
+-Return left sink handle to starting position
+-Return right sink handle to starting position
+-Approach towel hanging on wall
+-Rub towel in hands until dry
