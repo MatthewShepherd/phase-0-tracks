@@ -1,3 +1,50 @@
 body {
-	background-color: pink;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #001f3f;
+	color: #3D9970;
+	max-width: 775px;
+	font-family: courier;
+}
+
+header {
+	margin: auto;
+	width: 99.25%;
+	border: solid #3D9970;
+	border-radius: 25px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+.column-1, .column-2 {
+	width: 750px;
+	margin: 0 auto;
+	background-color: #001f3f;
+	border: solid #3D9970;
+    text-align: left;
+    border-radius: 25px;
+}
+
+.column-1 {
+	float: left;
+	width: 49.22%;
+	padding-bottom: 82px;
+}
+
+.column-2 {
+	float: right;
+	width: 49.22%;
+}
+
+footer {
+	clear: both;
+	padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+a {
+	color: white;
 }

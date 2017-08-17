@@ -11,27 +11,53 @@ g_bread = gets.chomp
 p "Would you like to enroll in the company's health insurance?(y/n)"
 health_ins = gets.chomp
 
+#give g_bread preference true or false value
 if g_bread == "y"
 	true
 elsif g_bread == "n"
 	false
 end
 
+#give health_ins true or false value
 if health_ins == "y"
 	true
 elsif health_ins == "n"
 	false
 end
 
+#give user_name true or false value for vampire likelihood
+if user_name == "Drake Cula"
+	user_name = true
+elsif user_name == "Tu Fang"
+	user_name = true
+else
+	false
+end
+
+if user_year.to_i != current_year - user_age.to_i
+	user_year = false
+else
+	user_year = true
+end
+
+
 #update variables as each condition is checked.
-if user_year.to_i != current_year - user_age.to_i && (g_bread == "n" && health_ins == "n")
+if !user_year && (!g_bread && !health_ins)
+
     user_status = "Almost certainly a vampire!"
-elsif user_name == "Drake Cula" || "Tu Fang"
-	user_status = "Almost certainly a vampire!"
-elsif user_year.to_i != current_year - user_age.to_i && (g_bread == "n" || health_ins == "n")
+
+elsif user_name == true
+
+      user_status = "Almost certainly a vampire!"
+
+elsif !user_year && (!g_bread || !health_ins)
+
 	user_status = "Probably a vampire..."
-elsif user_year.to_i == current_year - user_age.to_i && (g_bread == "y" || health_ins == "y")
+
+elsif user_year && (g_bread || health_ins)
+
 	user_status = "Probably not a vampire..."
+	
 end
 
 p "Checking user status for signs of vampire."
