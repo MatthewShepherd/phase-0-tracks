@@ -1,0 +1,22 @@
+job_app = {
+	name: "Bob Roberts",
+	address: "123 Bob Street",
+	email: "bob@hotmail.com",
+	phone: "123-4567",
+    shade: "Royal",
+    wallpaper: "Paisley",
+    ombre: "so last season"
+}
+
+user_shade = job_app[:shade]
+p user_shade
+
+p job_app[:name] + job_app[:phone]
+
+p job_app[:name]
+
+p job_app[:phone]
+
+job_app[:hired] = true
+
+p job_app
