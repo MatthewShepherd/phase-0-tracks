@@ -1,4 +1,4 @@
-# Puppy Class
+# *Puppy Class*
 
 # SPECIES --------------------
 # Miniturous Dogeous
