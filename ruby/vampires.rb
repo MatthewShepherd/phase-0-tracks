@@ -13,16 +13,16 @@ health_ins = gets.chomp
 
 #give g_bread preference true or false value
 if g_bread == "y"
-	true
+	g_bread = true
 elsif g_bread == "n"
-	false
+	g_bread = false
 end
 
 #give health_ins true or false value
 if health_ins == "y"
-	true
+	health_ins = true
 elsif health_ins == "n"
-	false
+	health_ins = false
 end
 
 #give user_name true or false value for vampire likelihood
@@ -31,6 +31,7 @@ if user_name == "Drake Cula"
 elsif user_name == "Tu Fang"
 	user_name = true
 else
+# May be an issue with line 35	
 	false
 end
 
