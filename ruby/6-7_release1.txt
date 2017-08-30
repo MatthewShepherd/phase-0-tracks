@@ -1,0 +1,11 @@
+# create word-guessing game
+# make a class
+# driver code will handle
+    # input: one user creates word or phrase
+        # another attempts to guess that word or phrase
+            # User guesses are limited relative to the
+            # length of the word
+                # unless its a repeated guess
+            
+    # output: each input will give feedback on current
+    # progress of the word
