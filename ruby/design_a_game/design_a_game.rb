@@ -78,4 +78,4 @@ while !game.is_over
     game.guess_compare(guess)
     p game.updt_arr
     game.guess_limit(guess)
-end
+end 
