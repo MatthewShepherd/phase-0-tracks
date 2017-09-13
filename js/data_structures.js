@@ -17,3 +17,21 @@ for (var i = 0; i < colors.length; i++) {
 }
 
 console.log(horse);
+
+function Car(color, model, horsepower) {
+	this.color = color;
+	this.model = model;
+    this.horsepower = horsepower;
+
+    this.vroom = function() { console.log('The '+ model + ' goes vroom!'); };
+
+}
+
+var newCar = new Car("Red", "Mustang", 350);
+newCar.vroom();
+
+var oldCar = new Car("rusty", "bucket", 90);
+oldCar.vroom();
+
+var notCar = new Car("blue", "big-wheel", "legs");
+notCar.vroom();
