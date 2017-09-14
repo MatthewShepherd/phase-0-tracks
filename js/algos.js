@@ -10,16 +10,19 @@
 // return longest word variable
 
 function longestPhrase(arr) {
-		var longPhrase = "";
+	var longPhrase = "";
 	for ( var i = 0; i < arr.length; i++) {
-		if ( i.length > longPhrase.length );{
+		if ( arr[i].length > longPhrase.length ) {
 			longPhrase = arr[i];
-		} 
-
-    }
-    console.log(longPhrase)
-    return longPhrase
+		}
+	}
+	console.log(longPhrase);
+    return longPhrase; 
 }
+    
 
+
+var testPhrase2 = ["cat", "building", "course", "idle"];
 var testPhrase = ["one", "five", "eight", "twelve"];
-longestPhrase(testPhrase);    
+longestPhrase(testPhrase);
+longestPhrase(testPhrase2);    
