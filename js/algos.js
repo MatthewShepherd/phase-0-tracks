@@ -51,3 +51,10 @@ var yourFunction = {name: "Steven", age: 54};
 var yourFunction2 = {name: "Frank", age: 54};
 twoObjects(yourFunction, yourFunction2);
 twoObjects(myFunction, myFunction2);
+
+// method that takes an integer 
+// it builds an array of random strings
+// integer determines number of strings
+// generate a random number for length of string 1-10
+// of random letters
+// the string will be added to the array
