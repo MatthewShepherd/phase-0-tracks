@@ -58,3 +58,31 @@ twoObjects(myFunction, myFunction2);
 // generate a random number for length of string 1-10
 // of random letters
 // the string will be added to the array
+
+function getRand(x, y) {
+	x = Math.ceil(x);
+	y = Math.floor(y);
+	return Math.floor(Math.random() * (y - x)) + x;
+}
+
+function wordRand() {
+	var text = "";
+  var possible = "abcdefghijklmnopqrstuvwxyz";
+
+  for (var i = 0; i < getRand(1, 10); i++)
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+  return text;
+}
+
+function randString(x) {
+	var randArr = [];
+	for ( i = 0; i < x; i++) {
+		y = wordRand();
+		randArr.push(y);		
+	}
+	return randArr;
+}
+console.log(randString(6));
+console.log(randString(25));
+
