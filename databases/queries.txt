@@ -1,0 +1,26 @@
+SELECT * FROM musicians;
+1|Eminem|false|1
+2|The Killers|true|2
+3|The Foo Fighters|true|3
+
+UPDATE musicians SET genre_id=3 WHERE artist="The Killers";
+sqlite> SELECT * FROM musicians WHERE artist="The Killers";
+2|The Killers|true|3
+
+SELECT * FROM musicians, style WHERE musicians.genre_id = style.id;
+1|Eminem|false|1|1|Rap
+2|The Killers|true|3|3|Rock
+3|The Foo Fighters|true|3|3|Rock
+
+SELECT musicians.artist, style.genre FROM musicians JOIN style ON musicians.genre_id = style.id;
+Eminem|Rap
+The Killers|Rock
+The Foo Fighters|Rock
+
+DELETE FROM style
+   ...> WHERE genre="Punk";
+
+SELECT artist
+   ...> FROM musicians
+   ...> INNER JOIN style ON musicians.artist = style.genre
+   ...> ;
